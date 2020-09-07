@@ -37,7 +37,7 @@ yeah cool, it just works.
 
 But does it?
 It turns out that clustering is mased on some CRAZY MATHEMATICS like simple mean
-![picsimplemean]("./to_readme/images-(3).png")<br>
+![picsimplemean](./to_readme/images-(3).png)<br>
 and geometric distance between two points
 ![picdistance](./to_readme/unnamed.png)
 Algorithm first chooses some random points witch are called "centroids", which are centers of now empty clusters.
