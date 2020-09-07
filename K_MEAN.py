@@ -39,8 +39,15 @@ class Model(object):
 
     def _create_random_centroid(self, data, min_value, max_value):
         """
-        Method creating random centroids
+        Method creating random centroid based on provided data
 
+        Args:
+            data (iterable): one data ponit/reading from whole dataset 
+            min_value ([type]): minimal value of the dataset
+            max_value ([type]): maximal value of the dataset
+
+        Returns:
+            list: random centroid
         """
         centroid = []
         for x in data:
@@ -105,8 +112,6 @@ class Model(object):
 
                 self.clusters[best_centroid_index].append(current_index)
 
-            #TODO recursive mean
-
             for cluster_index, cluster in enumerate(self.clusters):
                 self.centroids[cluster_index] = recursive_mean([X[x] for x in cluster])
                 if len(cluster) == 0:
@@ -116,6 +121,7 @@ class Model(object):
             if verbose >= 1:
                 self.__centroids__(epoch = epoch+1, verbose=verbose)
 
+            #TODO recursive early stopping
             # early_stopping = True
             # for index in range(self.n_clusters):
             #     if self.history[-1][index] - self.history[-2][index]:
