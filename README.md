@@ -36,10 +36,10 @@ now clustered
 yeah cool, it just works.
 
 But does it?
-It turns out that clustering is mased on some CRAZY MATHEMATICS like simple mean
+It turns out that clustering is mased on some CRAZY MATHEMATICS like simple mean<br>
 ![picsimplemean](./to_readme/images-(3).png)<br>
-and geometric distance between two points
-![picdistance](./to_readme/unnamed.png)
+and geometric distance between two points<br>
+![picdistance](./to_readme/unnamed.png)<br>
 Algorithm first chooses some random points witch are called "centroids", which are centers of now empty clusters.
 Then for each point distance to all centroids is calculated, and the one closest to this point is choosen.
 After clustering each point to currently random cluster, new centroind is choosen from all points in the cluster by usage of simple mean on all of them.
