@@ -1,1 +1,74 @@
 # Multidimensional-Clustering
+
+## What's this about
+
+This project is a part of my bachelors. It is a library for data clustering.
+As i am currently not sure how my data will look like (either structurally and dimensionally),
+I've prepaired myself for all possibilites.
+
+Idea behing my bachelors is based on analysing IOT smart-house data to get some insight on
+household members behaviour.
+
+![meme1](./to_readme/path)<br>
+
+But how, what does it even mean.
+
+Easy.
+
+## CLUSTERING ALGORITHM
+
+Clustering algorithm is a super clever machine learning that learns patterns is data.
+Most of the people reading this will now react with:
+[!meme2](./to_readme/path)<br>
+
+You, normal people, just like to "let machine learning in", and you think it just works, math behind it is not really important.
+
+Also AI will kill us all, it is dangerous, we vannot let Elon Musk take over the world.
+
+You can easly see how machine learning works on an example.
+
+here, data
+[!pic1](./to_readme/path)<br>
+
+now clustered
+[!pic2](./to_readme/path)<br>
+
+yeah cool, it just works.
+
+But does it?
+It turns out that clustering is mased on some CRAZY MATHEMATICS like simple mean
+[!picsimplemean](./to_readme/path)<br>
+and geometric distance between two points
+[!picdistance](./to_readme/path)
+Algorithm first chooses some random points witch are called "centroids", which are centers of now empty clusters.
+Then for each point distance to all centroids is calculated, and the one closest to this point is choosen.
+After clustering each point to currently random cluster, new centroind is choosen from all points in the cluster by usage of simple mean on all of them.
+
+You still here?
+[!epicmeme](./to_readme/path)<br>
+
+Lets look at some more "real life" example. Lets say you have a folder of images on your pc, but you dont know what is on these images as this folder contains tousands of images.
+Ok, we used our clustering algorithm on them.
+
+lets look how first cluster looks like
+[!memerocks](./to_readme/path)<br>
+
+nice rocks, how about second one
+
+[!hentaianimegirls](./to_readme/path)<br>
+
+Horny spotted, initiate police.
+
+## Use cases
+
+As mentioned above, this algorithm is part of my bachelors. It will be used to analyse behaviour of household members.
+Example use case could be a situation where a potential client using smart-house would like to know what is his Family doing right now.
+Are they cleaning, working, eating dinner? With my bachelors, he could train an algorithm based on data got from his family behaviour in IOT House.
+Thanks to that we've got an algorith that found patterns in human behaviour like EATING, SLEEPING, and maybe SLACKING FROM WORK. You know pobably where this is going.
+
+[!memebirddrone](./to_readme/path)<>
+
+A complete surveillance system, where machines control humans in manners we dont even understand.
+At least that is how most people see this project going
+## Installation
+Maybe one day this lib will be pip-installable, right now you just need to use "git clone"
