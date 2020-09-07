@@ -19,7 +19,7 @@ Easy.
 
 Clustering algorithm is a super clever machine learning that learns patterns is data.<br>
 Most of the people reading this will now react with:<br>
-[!meme2](./to_readme/101835232_3972491496154524_8559814599543328338_n.jpg)<br>
+![meme2](./to_readme/101835232_3972491496154524_8559814599543328338_n.jpg)<br>
 
 You, normal people, just like to "let machine learning in", and you think it just works, math behind it is not really important.
 
@@ -28,34 +28,34 @@ Also AI will kill us all, it is dangerous, we vannot let Elon Musk take over the
 You can easly see how machine learning works on an example.
 
 here, data
-[!pic1](./to_readme/Adnotacja-2020-09-07-201438.png)<br>
+![pic1](./to_readme/Adnotacja-2020-09-07-201438.png)<br>
 
 now clustered
-[!pic2](./to_readme/Adnotacja-2020-09-07-201500.png)<br>
+![pic2](./to_readme/Adnotacja-2020-09-07-201500.png)<br>
 
 yeah cool, it just works.
 
 But does it?
 It turns out that clustering is mased on some CRAZY MATHEMATICS like simple mean
-[!picsimplemean]("./to_readme/images-(3).png")<br>
+![picsimplemean]("./to_readme/images-(3).png")<br>
 and geometric distance between two points
-[!picdistance](./to_readme/unnamed.png)
+![picdistance](./to_readme/unnamed.png)
 Algorithm first chooses some random points witch are called "centroids", which are centers of now empty clusters.
 Then for each point distance to all centroids is calculated, and the one closest to this point is choosen.
 After clustering each point to currently random cluster, new centroind is choosen from all points in the cluster by usage of simple mean on all of them.
 
 You still here?
-[!epicmeme](./to_readme/90200291_2620639914924252_6426724234050928640_n.jpg)<br>
+![epicmeme](./to_readme/90200291_2620639914924252_6426724234050928640_n.jpg)<br>
 
 Lets look at some more "real life" example. Lets say you have a folder of images on your pc, but you dont know what is on these images as this folder contains tousands of images.
 Ok, we used our clustering algorithm on them.
 
 lets look how first cluster looks like
-[!memerocks](./to_readme/103964390_167214814789964_8686264964842550782_n.jpg)<br>
+![memerocks](./to_readme/103964390_167214814789964_8686264964842550782_n.jpg)<br>
 
 nice rocks, how about second one
 
-[!hentaianimegirls](./to_readme/path)<br>
+![hentaianimegirls](./to_readme/path)<br>
 
 Horny spotted, initiate police.
 
@@ -66,8 +66,7 @@ Example use case could be a situation where a potential client using smart-house
 Are they cleaning, working, eating dinner? With my bachelors, he could train an algorithm based on data got from his family behaviour in IOT House.
 Thanks to that we've got an algorith that found patterns in human behaviour like EATING, SLEEPING, and maybe SLACKING FROM WORK. You know pobably where this is going.
 
-[!memebirddrone](./to_readme/98920530_2678424739113019_6148906267373993984_n.jpg
-)<br>
+![memebirddrone](./to_readme/98920530_2678424739113019_6148906267373993984_n.jpg)<br>
 
 A complete surveillance system, where machines control humans in manners we dont even understand.
 At least that is how most people see this project going
