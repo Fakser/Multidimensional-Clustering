@@ -7,7 +7,7 @@ As i am currently not sure how my data will look like (either structurally and d
 I've prepaired myself for all possibilites.
 
 Idea behing my bachelors is based on analysing IOT smart-house data to get some insight on
-household members behaviour.
+household members behaviour.<br>
 
 ![meme1](./to_readme/070.png)<br>
 
@@ -27,10 +27,10 @@ Also AI will kill us all, it is dangerous, we vannot let Elon Musk take over the
 
 You can easly see how machine learning works on an example.
 
-here, data
+here, data<br>
 ![pic1](./to_readme/Adnotacja-2020-09-07-201438.png)<br>
 
-now clustered
+now clustered<br>
 ![pic2](./to_readme/Adnotacja-2020-09-07-201500.png)<br>
 
 yeah cool, it just works.
@@ -44,16 +44,16 @@ Algorithm first chooses some random points witch are called "centroids", which a
 Then for each point distance to all centroids is calculated, and the one closest to this point is choosen.
 After clustering each point to currently random cluster, new centroind is choosen from all points in the cluster by usage of simple mean on all of them.
 
-You still here?
+You still here?<br>
 ![epicmeme](./to_readme/90200291_2620639914924252_6426724234050928640_n.jpg)<br>
 
 Lets look at some more "real life" example. Lets say you have a folder of images on your pc, but you dont know what is on these images as this folder contains tousands of images.
 Ok, we used our clustering algorithm on them.
 
-lets look how first cluster looks like
+lets look how first cluster looks like<br>
 ![memerocks](./to_readme/103964390_167214814789964_8686264964842550782_n.jpg)<br>
 
-nice rocks, how about second one
+nice rocks, how about second one<br>
 
 ![hentaianimegirls](./to_readme/hornytojail.png)<br>
 
