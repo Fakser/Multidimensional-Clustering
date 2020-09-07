@@ -17,13 +17,13 @@ Easy.
 
 ## CLUSTERING ALGORITHM
 
-Clustering algorithm is a super clever machine learning that learns patterns is data.<br>
+Clustering algorithm is a super clever machine learning that learns patterns in data.<br>
 Most of the people reading this will now react with:<br>
 ![meme2](./to_readme/101835232_3972491496154524_8559814599543328338_n.jpg)<br>
 
 You, normal people, just like to "let machine learning in", and you think it just works, math behind it is not really important.
 
-Also AI will kill us all, it is dangerous, we vannot let Elon Musk take over the world.
+Also AI will kill us all, it is dangerous, we cannot let Elon Musk take over the world.
 
 You can easly see how machine learning works on an example.
 
@@ -36,7 +36,7 @@ now clustered<br>
 yeah cool, it just works.
 
 But does it?
-It turns out that clustering is mased on some CRAZY MATHEMATICS like simple mean<br>
+It turns out that clustering is based on some CRAZY MATHEMATICS like simple mean<br>
 ![picsimplemean](./to_readme/images-(3).png)<br>
 and geometric distance between two points<br>
 ![picdistance](./to_readme/unnamed.png)<br>
