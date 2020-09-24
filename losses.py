@@ -1,6 +1,6 @@
 from controller import math, sys, os
-from utils import is_iter
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils import is_iter
 
 
 def geometric_distance(a, b, dist = 0):
